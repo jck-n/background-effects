@@ -9,17 +9,17 @@
     width: 100%;
 
     .bg1 {
-        background: red;
+        background: url(../../bg.jpg) fixed center;
         @include staticbgsize();
     }
 
     .bg2 {
-        background: blue;
+        background: url(../../bg2.jpg) fixed center;
         @include staticbgsize();
     }
 
     .bg3 {
-        background: green;
+        background: url(../../bg3.jpg) fixed center;
         @include staticbgsize();
     }
 }
